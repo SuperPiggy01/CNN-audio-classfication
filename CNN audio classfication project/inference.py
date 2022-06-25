@@ -5,8 +5,8 @@ from rehapeSampleDatasets import UrbanSoundDataset
 from train import AUDIO_DIR, ANNOTATIONS_FILE, SAMPLE_RATE, NUM_SAMPLES
 
 total = 8732
-index = 0
-miss = 0
+index, miss = 0, 0
+
 class_mapping = [
     "air_conditioner",
     "car_horn",
