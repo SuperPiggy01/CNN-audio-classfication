@@ -6,7 +6,7 @@ from rehapeSampleDatasets import UrbanSoundDataset
 from cnnModel import CNNNetwork
 
 BATCH_SIZE = 32
-EPOCHS = 50
+EPOCHS = 100
 LEARNING_RATE = 0.0001
 
 ANNOTATIONS_FILE = "D:/Python/Project/ECE616/Project8K/data/UrbanSound8K/metadata/UrbanSound8K.csv"
