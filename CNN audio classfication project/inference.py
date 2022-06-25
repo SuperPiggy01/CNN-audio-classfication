@@ -2,7 +2,7 @@ import torch
 import torchaudio
 from cnnModel import CNNNetwork
 from rehapeSampleDatasets import UrbanSoundDataset
-from train import AUDIO_DIR, ANNOTATIONS_FILE, SAMPLE_RATE, NUM_SAMPLES
+from train import AUDIO_DIR, ANNOTATIONS_FILE, SAMPLE_RATE, NUM_SAMPLES, EPOCHS, BATCH_SIZE, LEARNING_RATE
 
 total = 8732
 index, miss = 0, 0
@@ -68,4 +68,7 @@ if __name__ == "__main__":
     # Accuracy calculate
     hit = total - miss
     Accuracy = hit / total * 100
-    print(f"Accuracy: '{round(Accuracy, 2)}'")
+    print(f"epoch time:{EPOCHS}")
+    print(f"batch size:{BATCH_SIZE}")
+    print(f"learning Rate:{LEARNING_RATE}")
+    print(f"Accuracy: {round(Accuracy, 2)}")
