@@ -68,4 +68,4 @@ if __name__ == "__main__":
     # Accuracy calculate
     hit = total - miss
     Accuracy = hit / total * 100
-    print(f"Accuracy: '{round(Accuracy, 0)}'")
+    print(f"Accuracy: '{round(Accuracy, 2)}'")
