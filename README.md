@@ -12,3 +12,7 @@ Result:
 Content of model:
 
 ![image](https://user-images.githubusercontent.com/89892249/175793347-be7e18e3-fd0c-4eee-828a-6ca2b0b5fc6f.png)
+
+Referrence:
+
+https://github.com/musikalkemist/pytorchforaudio
